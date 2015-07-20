@@ -17,6 +17,7 @@ namespace Week4.Day1.Models
         
         public int HeightFeet { get; set; }
         public int HeightInches { get; set; }
+        [Display(Name = "Height")]
         public string PrettyHeight
         {
             get
